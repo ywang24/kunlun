@@ -1,0 +1,9 @@
+{
+  "mocha_tests": ["./test/#<projectName>/"],
+  "mocha_opts": "test/mocha.opts",
+  "framework": "testarmada-magellan-mocha-plugin",
+  "no_tunnels": true,
+  "sauce": false,
+  "browser": "iPhone_Simulator_iOS_8_4_OS_X_10_10",
+  "setup_teardown": "./lib/magellan_setup.js"
+}

@@ -1,0 +1,10 @@
+{
+  "testServer": "http://localhost:4723/wd/hub",
+  "remoteAppName": "#<projectName>.zip",
+  "capabilities": {
+    "platformName": "iOS",
+    "platformVersion": "9.2",
+    "deviceName": "iPhone 6",
+    "app": "../../app/<your_app_name>"
+  }
+}
