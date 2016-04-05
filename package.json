@@ -5,7 +5,7 @@
   "description": "Enhanced Appium JS Client",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ywang24/kunlun.git"
+    "url": "git+ssh://git@github.com/ywang24/kunlun.git"
   },
   "license": "MIT",
   "engines": {
@@ -28,7 +28,7 @@
     "yargs": "^4.3.2"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha test/"
+    "test": "mocha test/"
   },
   "bin": {
     "appium-plus": "./bin/appiumplus.bin.js"
@@ -39,5 +39,10 @@
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-jscs": "^2.8.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ywang24/kunlun/issues"
+  },
+  "homepage": "https://github.com/ywang24/kunlun#readme",
+  "main": "index.js"
 }
