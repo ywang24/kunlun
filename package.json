@@ -1,6 +1,6 @@
 {
   "name": "kunlun",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "author": "Chaoyi Chen, Lillian Wang",
   "description": "Enhanced Appium JS Client",
   "repository": {
@@ -25,13 +25,13 @@
     "lodash": "^4.0.0",
     "q": "^1.4.1",
     "wd": "^0.4.0",
-    "yargs": "^4.3.2"
+    "yargs": "^4.4.0"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha test/"
   },
   "bin": {
-    "kunlun": "./bin/appiumplus.bin.js"
+    "kunlun": "./bin/kunlun.bin.js"
   },
   "devDependencies": {
     "mocha": "^2.3.4",
