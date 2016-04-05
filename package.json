@@ -31,7 +31,7 @@
     "test": "./node_modules/.bin/mocha test/"
   },
   "bin": {
-    "appium-plus": "./bin/appiumplus.bin.js"
+    "kunlun": "./bin/appiumplus.bin.js"
   },
   "devDependencies": {
     "mocha": "^2.3.4",
