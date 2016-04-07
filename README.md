@@ -9,7 +9,15 @@
 * Sauce Labs helper method
 * Bootstrap your appium page object test structure
 
-Quick example:
+## Table of contents
+
+- [Quick example](#quick-example)
+- [API](#api)
+- [Command line tool](#command-line-tool)
+- [License](#license)
+
+---
+## Quick example:
 * Instead of
 ```
 - find an element by some selector
