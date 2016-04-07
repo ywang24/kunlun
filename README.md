@@ -26,6 +26,41 @@ Default selector type is `accessibility id`, you can overwrite it with `xpath`, 
 
 ---
 
+## API ##
+
+#### `waitTillAvailable(selector, by)`
+Wait until specific element is displayed
+
+#### `waitTillNotAvailable(selector, by)`
+Wait until specific element is NOT displayed
+
+#### `clickEl(selector, by)`
+Click on selected element after waiting for it to display
+
+#### `getEls(selector, by)`
+Search for multiple elements after waiting for any of them to display
+
+#### `getEl(selector, by)`
+Search for element after waiting for any of them to display
+
+#### `hasEl(selector, by)`
+Check if an element exists
+
+#### `getElAttribute(attr, selector, by)`
+Get the value of an element's attribute after waiting for it to display
+
+#### `bindModule(module)`
+Bind functions from customized page object modules to AppiumDriver object
+
+#### `resetModules()`
+Clean up customized page object modules functions
+
+#### `goBack()`
+Click on built-in Back button
+
+#### `cancelLastMove()`
+Click on built-in Cancel button
+
 ## License
 Licensed under the [MIT](http://opensource.org/licenses/MIT)
 
