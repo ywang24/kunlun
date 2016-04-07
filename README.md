@@ -13,6 +13,17 @@
 
 - [Quick example](#quick-example)
 - [API](#api)
+  - [waitTillAvailable(selector, by)](#waittillavailableselector-by)
+  - [waitTillNotAvailable(selector, by)](#waittillnotavailableselector-by)
+  - [clickEl(selector, by)](#clickelselector-by)
+  - [getEls(selector, by)](#getelsselector-by)
+  - [getEl(selector, by)](#getelselector-by)
+  - [hasEl(selector, by)](#haselselector-by)
+  - [getElAttribute(attr, selector, by)](#getelattributeattr-selector-by)
+  - [bindModule(module)](#bindmodulemodule)
+  - [resetModule()](#resetmodules)
+  - [goBack()](#goback)
+  - [cancelLastMove()](#cancellastmove)
 - [Command line tool](#command-line-tool)
 - [License](#license)
 
