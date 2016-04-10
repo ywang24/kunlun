@@ -15,6 +15,7 @@
 - [API](#api)
   - [waitTillAvailable(selector, by)](#waittillavailableselector-by)
   - [waitTillNotAvailable(selector, by)](#waittillnotavailableselector-by)
+  - [typeSpecialKey(key)](#typespecialkeykey)
   - [clickEl(selector, by)](#clickelselector-by)
   - [getEls(selector, by)](#getelsselector-by)
   - [getEl(selector, by)](#getelselector-by)
@@ -52,6 +53,10 @@ Wait until specific element is displayed
 
 #### `waitTillNotAvailable(selector, by)`
 Wait until specific element is NOT displayed
+
+#### `typeSpecialKey(key)`
+Send special key as defined in https://github.com/admc/wd/blob/master/lib/special-keys.js
+e.g. `driver.typeSpecialKey('Return');`
 
 #### `clickEl(selector, by)`
 Click on selected element after waiting for it to display
