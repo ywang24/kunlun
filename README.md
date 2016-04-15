@@ -15,12 +15,13 @@
 - [API](#api)
   - [waitTillAvailable(selector, by)](#waittillavailableselector-by)
   - [waitTillNotAvailable(selector, by)](#waittillnotavailableselector-by)
-  - [typeSpecialKey(key)](#typespecialkeykey)
   - [clickEl(selector, by)](#clickelselector-by)
+  - [typeEl(selector, by)](#typeelselector-by)
   - [getEls(selector, by)](#getelsselector-by)
   - [getEl(selector, by)](#getelselector-by)
   - [hasEl(selector, by)](#haselselector-by)
   - [getElAttribute(attr, selector, by)](#getelattributeattr-selector-by)
+  - [typeSpecialKey(key)](#typespecialkeykey)
   - [bindModule(module)](#bindmodulemodule)
   - [resetModule()](#resetmodules)
   - [goBack()](#goback)
@@ -59,19 +60,22 @@ Send special key as defined in https://github.com/admc/wd/blob/master/lib/specia
 e.g. `driver.typeSpecialKey('Return');`
 
 #### `clickEl(selector, by)`
-Click on selected element after waiting for it to display
+Click on selected element after waiting for it to be displayed
+
+#### `typeEl(selector, by)`
+Type text in selected element after waiting for it to be displayed
 
 #### `getEls(selector, by)`
-Search for multiple elements after waiting for any of them to display
+Search for multiple elements after waiting for any of them to be displayed
 
 #### `getEl(selector, by)`
-Search for element after waiting for any of them to display
+Search for element after waiting for any of them to be displayed
 
 #### `hasEl(selector, by)`
 Check if an element exists
 
 #### `getElAttribute(attr, selector, by)`
-Get the value of an element's attribute after waiting for it to display
+Get the value of an element's attribute after waiting for it to be displayed
 
 #### `bindModule(module)`
 Bind functions from customized page object modules to AppiumDriver object
