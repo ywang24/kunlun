@@ -2,7 +2,7 @@
 
 ## Setup
 
-* Install `Xcode 7.2` (If your Mac OS version is lower than 10.9, you need to upgrade your Mac OS first)
+* Install `Xcode 7.2` (If your Mac OS version is lower than 10.10.5, you need to upgrade your Mac OS first)
 * Install [Node.js >= v0.12 and npm](http://nodejs.org/)
 * Clone this repo and install npm package dependencies:
 ```
@@ -67,7 +67,7 @@ UPLOADAPP=true SAUCE=true ./node_modules/.bin/magellan
 
 # Upload app to Sauce Labs storage with specified local app path and
 remote file name, then run all the tests in parallel:
-UPLOADAPP=true SAUCE=true NODE_CONFIG='{"remoteAppName": "demo_new.zip" "capabilities": {"app": "./app/ForAutomationDemo.app"}}'
+UPLOADAPP=true SAUCE=true NODE_CONFIG='{"remoteAppName": "yourapp.zip" "capabilities": {"app": "./app/yourapp.app"}}'
 ./node_modules/.bin/magellan
 ```
 

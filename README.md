@@ -96,7 +96,7 @@ Click on built-in Cancel button
 Kunlun comes with `kunlun` command line interface that helps you to create a basic page object Appium test framework.
 
 ```bash
-$ npm install bluecat
+$ npm install kunlun
 $ ./node_modules/.bin/kunlun init
 ```
 Follow the instructions and it will create a scaffold of basic test framework for you.
