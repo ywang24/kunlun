@@ -56,8 +56,8 @@ Wait until specific element is displayed
 Wait until specific element is NOT displayed
 
 * #### `typeSpecialKey(key)`
-Send special key as defined in https://github.com/admc/wd/blob/master/lib/special-keys.js
-e.g. `driver.typeSpecialKey('Return');`
+Send special key as defined in https://github.com/admc/wd/blob/master/lib/special-keys.js 
+e.g.: `driver.typeSpecialKey('Return');`
 
 * #### `clickEl(selector, by)`
 Click on selected element after waiting for it to be displayed
@@ -88,6 +88,8 @@ Click on built-in Back button
 
 * #### `cancelLastMove()`
 Click on built-in Cancel button
+
+* #### Plus, all the APIs as listed in [WD](https://github.com/admc/wd/blob/master/doc/api.md)
 
 ---
 
