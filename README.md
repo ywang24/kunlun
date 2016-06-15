@@ -49,44 +49,44 @@ Default selector type is `accessibility id`, you can overwrite it with `xpath`, 
 
 ## API ##
 
-#### `waitTillAvailable(selector, by)`
+* #### `waitTillAvailable(selector, by)`
 Wait until specific element is displayed
 
-#### `waitTillNotAvailable(selector, by)`
+* #### `waitTillNotAvailable(selector, by)`
 Wait until specific element is NOT displayed
 
-#### `typeSpecialKey(key)`
+* #### `typeSpecialKey(key)`
 Send special key as defined in https://github.com/admc/wd/blob/master/lib/special-keys.js
 e.g. `driver.typeSpecialKey('Return');`
 
-#### `clickEl(selector, by)`
+* #### `clickEl(selector, by)`
 Click on selected element after waiting for it to be displayed
 
-#### `typeEl(selector, by)`
+* #### `typeEl(selector, by)`
 Type text in selected element after waiting for it to be displayed
 
-#### `getEls(selector, by)`
+* #### `getEls(selector, by)`
 Search for multiple elements after waiting for any of them to be displayed
 
-#### `getEl(selector, by)`
+* #### `getEl(selector, by)`
 Search for element after waiting for any of them to be displayed
 
-#### `hasEl(selector, by)`
+* #### `hasEl(selector, by)`
 Check if an element exists
 
-#### `getElAttribute(attr, selector, by)`
+* #### `getElAttribute(attr, selector, by)`
 Get the value of an element's attribute after waiting for it to be displayed
 
-#### `bindModule(module)`
+* #### `bindModule(module)`
 Bind functions from customized page object modules to AppiumDriver object
 
-#### `resetModules()`
+* #### `resetModules()`
 Clean up customized page object modules functions
 
-#### `goBack()`
+* #### `goBack()`
 Click on built-in Back button
 
-#### `cancelLastMove()`
+* #### `cancelLastMove()`
 Click on built-in Cancel button
 
 ---
