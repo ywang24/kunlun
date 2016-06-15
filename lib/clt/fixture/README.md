@@ -13,11 +13,13 @@ npm install
 
 Note: For the first time before running tests:
 
-* You may want to check your Appium setup first by running:
+* You may want to verify your Appium setup first by running `appium-doctor`:
 
 ```bash
-node ./node_modules/appium/bin/appium-doctor.js
+npm install appium-doctor
+./node_modules//.bin/appium-doctor.js
 ```
+
 * If you see popup "Instruments wants permission to analyze other processes." You need to allow access.
   You need to do this every time you install a new version of Xcode.
 
@@ -81,7 +83,7 @@ UPLOADAPP=true SAUCE=true NODE_CONFIG='{"remoteAppName": "yourapp.zip" "capabili
 
 ```bash
 .
-└── boilerplate-ios-automation
+└── projectRoot
     ├── README.md
     ├── app
     ├── lib
