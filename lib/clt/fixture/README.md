@@ -16,8 +16,10 @@ Note: For the first time before running tests:
 * You may want to verify your Appium setup first by running `appium-doctor`:
 
 ```bash
-npm install appium-doctor
-./node_modules//.bin/appium-doctor.js
+# install appium-doctor
+$ npm install appium-doctor -g
+# check that all iOS dependencies are set up correctly
+$ appium-doctor --ios
 ```
 
 * If you see popup "Instruments wants permission to analyze other processes." You need to allow access.
@@ -28,7 +30,7 @@ npm install appium-doctor
 #### start Appium server:
 
 ```bash
-node ./node_modules/appium/bin/appium.js
+./node_modules/.bin/appium
 ```
 
 #### execute tests with Mocha directly (in another terminal window):

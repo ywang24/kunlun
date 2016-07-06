@@ -1,6 +1,6 @@
 {
   "name": "kunlun",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "author": "Chaoyi Chen, Lillian Wang",
   "description": "Enhanced Appium JS Client",
   "repository": {
@@ -39,7 +39,7 @@
     "grunt-cli": "^1.1.0",
     "grunt": "^1.0.1",
     "grunt-contrib-jshint": "^1.0.0",
-    "grunt-jscs": "^3.0.0"
+    "grunt-jscs": "^3.0.1"
   },
   "bugs": {
     "url": "https://github.com/ywang24/kunlun/issues"
