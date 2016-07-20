@@ -62,8 +62,8 @@ e.g.: `driver.typeSpecialKey('Return');`
 * #### `clickEl(selector, by)`
 Click on selected element after waiting for it to be displayed
 
-* #### `typeEl(selector, by)`
-Type text in selected element after waiting for it to be displayed
+* #### `typeEl(value, selector, by)`
+Type text value in selected element after waiting for it to be displayed
 
 * #### `getEls(selector, by)`
 Search for multiple elements after waiting for any of them to be displayed
