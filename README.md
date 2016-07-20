@@ -16,7 +16,7 @@
   - [waitTillAvailable(selector, by)](#waittillavailableselector-by)
   - [waitTillNotAvailable(selector, by)](#waittillnotavailableselector-by)
   - [clickEl(selector, by)](#clickelselector-by)
-  - [typeEl(value, selector, by)](#typeelselector-by)
+  - [typeEl(value, selector, by)](#typeelvalue-selector-by)
   - [getEls(selector, by)](#getelsselector-by)
   - [getEl(selector, by)](#getelselector-by)
   - [hasEl(selector, by)](#haselselector-by)
