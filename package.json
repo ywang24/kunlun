@@ -35,7 +35,7 @@
     "kunlun": "./bin/kunlun.bin.js"
   },
   "devDependencies": {
-    "mocha": "^2.3.4",
+    "mocha": "^3.1.0",
     "grunt-cli": "^1.1.0",
     "grunt": "^1.0.1",
     "grunt-contrib-jshint": "^1.0.0",
