@@ -1,0 +1,17 @@
+{
+  "testServer": "https://app.testobject.com:443/api/appium/wd/hub",
+  "remoteAppName": "#<projectName>.zip",
+  "capabilities": {
+    "platformName": "iOS",
+    "platformVersion": "9.3",
+    "testobject_api_key": "#<testObjectKey>",
+    "testobject_app_id": "1",
+    "testobject_device": "iPhone_6_16GB_real_private",
+    "testobject_appium_version": "1.5.3",
+    "testobject_suite_name": "Appium Test Suite",
+    "testobject_test_name": "Appium Test Case",
+    "sendKeyStrategy": "setValue",
+    "waitForAppScript": "true",
+    "newCommandTimeout": "120"
+  }
+}
