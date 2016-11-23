@@ -2,6 +2,7 @@
 
 
 [![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][downloads-url]
 
 `Kunlun` is a Appium client library that provides:
 * User friendly and more helpful methods in addition to [WD](https://github.com/admc/wd)
