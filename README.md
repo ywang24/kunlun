@@ -3,11 +3,11 @@
 
 [![NPM version][npm-image]][npm-url]
 
-`Kunlun` is a library that provides:
+`Kunlun` is a Appium client library that provides:
 * User friendly and more helpful methods in addition to [WD](https://github.com/admc/wd)
 * Appium logging control through environment variable `DEBUG`
-* Sauce Labs helper method
-* Bootstrap your appium page object test structure
+* Sauce Labs integration
+* Bootstrap your Appium page object test structure
 
 ## Table of contents
 
@@ -95,7 +95,7 @@ Click on built-in Cancel button
 
 ## Command line tool ##
 
-Kunlun comes with `kunlun` command line interface that helps you to create a basic page object Appium test framework.
+Kunlun comes with a `kunlun` command line interface that helps you to create a basic page object Appium test framework.
 
 ```bash
 $ npm install kunlun
