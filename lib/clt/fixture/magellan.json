@@ -4,6 +4,6 @@
   "framework": "testarmada-magellan-mocha-plugin",
   "no_tunnels": true,
   "sauce": false,
-  "browser": "iPhone_Simulator_iOS_8_4_OS_X_10_10",
+  "browser": "iphone_9_3_OS_X_10_11_iPhone_6",
   "setup_teardown": "./lib/magellan_setup.js"
 }
