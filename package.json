@@ -1,7 +1,7 @@
 {
   "name": "kunlun",
   "version": "0.2.12",
-  "author": "Chaoyi Chen, Lillian Wang",
+  "author": "Lillian Wang, Chaoyi Chen",
   "description": "An Appium JS mobile app automation framework",
   "repository": {
     "type": "git",
